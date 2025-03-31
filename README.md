@@ -66,7 +66,7 @@ PGD (Targeted / Untargeted
 
 [MNIST-FGSM_targeted] 원본 예측: 7, 공격 후 예측: 3
 
-[MNIST-PGD_targeted] 원본 예측: 7, 공격 후 예측: 2
+[MNIST-PGD_targeted] 원본 예측: 3, 공격 후 예측: 4
 
 [CIFAR10-FGSM_untargeted] 원본 예측: 3, 공격 후 예측: 5
 
