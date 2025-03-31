@@ -36,7 +36,7 @@ PGD (Targeted / Untargeted
 
 
 # 🧪 테스트 환경 설정
-CUDA 12.4 + PyTorch 2.4.1 환경 기준으로 다음과 같이 설정(bash)
+**CUDA 12.4 + PyTorch 2.4.1** 환경 기준으로 다음과 같이 설정 (bash)
 
 **1. 가상환경 생성**
 
