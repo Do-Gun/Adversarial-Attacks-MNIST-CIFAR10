@@ -17,16 +17,17 @@ CUDA 12.4 + PyTorch 2.4.1 환경 기준으로 다음과 같이 설정합니다.
 
 1. 가상환경 생성
 conda create -n rtai python=3.8
+
 conda activate rtai
 
-2. 필요 라이브러리 설치
+3. 필요 라이브러리 설치
 pip install torch==2.4.1 torchvision==0.19.1
 
-3. Git clone
+4. Git clone
 git clone https://github.com/Do-Gun/Adversarial-Attacks-MNIST-CIFAR10
 cd Adversarial-Attacks-MNIST-CIFAR10
 
-4. 테스트 실행
+5. 테스트 실행
 python test.py
 
 
