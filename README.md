@@ -15,25 +15,25 @@ PGD (Targeted / Untargeted
 # 🧪 테스트 환경 설정
 CUDA 12.4 + PyTorch 2.4.1 환경 기준으로 다음과 같이 설정합니다.
 
-1. 가상환경 생성
+**1. 가상환경 생성**
    
-conda create -n rtai python=3.8
+```conda create -n rtai python=3.8```
 
-conda activate rtai
+```conda activate rtai```
 
-2. 필요 라이브러리 설치
+**2. 필요 라이브러리 설치**
 
-pip install torch==2.4.1 torchvision==0.19.1
+```pip install torch==2.4.1 torchvision==0.19.1```
 
-3. Git clone
+**3. Git clone**
    
-git clone https://github.com/Do-Gun/Adversarial-Attacks-MNIST-CIFAR10
+```git clone https://github.com/Do-Gun/Adversarial-Attacks-MNIST-CIFAR10```
 
-cd Adversarial-Attacks-MNIST-CIFAR10
+```cd Adversarial-Attacks-MNIST-CIFAR10```
 
-4. 테스트 실행
+**4. 테스트 실행**
 
-python test.py
+```python test.py```
 
 
 # 📈 결과 예시 출력
@@ -46,11 +46,11 @@ python test.py
 
 ...
 
-원본 이미지와 공격 받은 이미지는 /Adversarial-Attacks-MNIST-CIFAR10/adv_images 경로에 저장됩니다.
+**원본 이미지와 공격 받은 이미지는 /Adversarial-Attacks-MNIST-CIFAR10/adv_images 경로에 저장됩니다.**
 
 
-📁 폴더 구조
-Adversarial-Attacks-MNIST-CIFAR10/
+# 📁 폴더 구조
+```Adversarial-Attacks-MNIST-CIFAR10/
 ├── MNIST/
 │   ├── model.py               # SimpleCNN 구조 정의
 │   └── mnist_model_20.pth     # 학습된 MNIST 모델 가운치
@@ -65,7 +65,7 @@ Adversarial-Attacks-MNIST-CIFAR10/
 ├── test.py                   # MNIST/CIFAR-10에 대한 공격 실행 스크립트
 ├── adv_images/               # 생성된 adversarial 이미지 저장 폴더
 ├── .gitignore                # 대용량 파일 제외
-└── README.md                 # 프리젝트 설명
+└── README.md                 # 프리젝트 설명```
 
 
 🧠 모델 출처
