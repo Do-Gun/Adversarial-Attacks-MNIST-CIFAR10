@@ -1,6 +1,6 @@
 # 🛡️ Adversarial Attacks on MNIST & CIFAR-10 (FGSM & PGD)
 
-MNIST와 CIFAR-10 데이터셋에 대해 FGSM (Fast Gradient Sign Method) 및 PGD (Projected Gradient Descent) 기반의 adversarial 공격을 구현함.
+MNIST와 CIFAR-10 데이터셋에 대해 FGSM 및 PGD 기반의 adversarial 공격을 구현함.
 
 MNIST에 대하여는 간단한 CNN 구조의 모델을 사용, CIFAR-10 데이터셋에 대해서는 Pretrain된 ResNet20 모델 사용함.
 
