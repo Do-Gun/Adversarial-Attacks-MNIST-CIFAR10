@@ -11,27 +11,27 @@ FGSM (Targeted / Untargeted)
 PGD (Targeted / Untargeted
 
 
-🧪 테스트 환경 설정
+# 🧪 테스트 환경 설정
 CUDA 12.4 + PyTorch 2.4.1 환경 기준으로 다음과 같이 설정합니다.
 
-# 1. 가상환경 생성
+1. 가상환경 생성
 conda create -n rtai python=3.8
 conda activate rtai
 
-# 2. 필요 라이브러리 설치
+2. 필요 라이브러리 설치
 pip install torch==2.4.1 torchvision==0.19.1
 
-# 3. Git clone
+3. Git clone
 git clone https://github.com/Do-Gun/Adversarial-Attacks-MNIST-CIFAR10
 cd Adversarial-Attacks-MNIST-CIFAR10
 
-# 4. 테스트 실행
+4. 테스트 실행
 python test.py
 
 
-📈 결과 예시 출력
-[MNIST-FGSM_targeted] 원본 예측: 7, 공격 후 예측: 3
-[MNIST-PGD_targeted] 원본 예측: 7, 공격 후 예측: 2
+# 📈 결과 예시 출력
+[MNIST-FGSM_targeted] 원본 예측: 7, 공격 후 예측: 3/
+[MNIST-PGD_targeted] 원본 예측: 7, 공격 후 예측: 2/
 [CIFAR10-FGSM_untargeted] 원본 예측: 3, 공격 후 예측: 5
 ...
 원본 이미지와 공격 받은 이미지는 /Adversarial-Attacks-MNIST-CIFAR10/adv_images 경로에 저장됩니다.
