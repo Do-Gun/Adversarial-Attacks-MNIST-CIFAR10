@@ -9,12 +9,13 @@ MNIST에 대하여 간단한 CNN 구조, CIFAR-10 Dataset에 대해서는 Pretra
 # 📁 폴더 구조
 ```Adversarial-Attacks-MNIST-CIFAR10/
 ├── MNIST/
+│   │   ......
 │   ├── model.py               # SimpleCNN 구조 정의
 │   └── mnist_model_20.pth     # 학습된 MNIST 모델 가운치
 │
 ├── CIFAR10/
-│   ├── resnet.py              # ResNet20 CIFAR용 정의 (akamaster)
 │   │   ......
+│   ├── resnet.py              # CIFAR용 ResNet 정의 
 │   └── pretrained_models/
 │       └── resnet20-12fca82f.th  # CIFAR-10에 대한 사전 학습된 가중치
 │
