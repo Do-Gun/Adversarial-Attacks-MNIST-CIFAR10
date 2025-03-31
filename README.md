@@ -3,6 +3,8 @@
 MNIST와 CIFAR-10 데이터셋에 대해 FGSM 및 PGD 기반의 Adversarial Attacks 구현
 
 MNIST에 대하여 간단한 CNN 구조, CIFAR-10 Dataset에 대해서는 Pretrain-ResNet20 모델 사용
+
+각 알고리즘마다 Test Datasets 중 한 장의 이미지를 불러와 공격을 수행
 <br>
 <br>
 
