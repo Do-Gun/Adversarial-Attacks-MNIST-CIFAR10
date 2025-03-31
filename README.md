@@ -20,8 +20,8 @@ MNIST에 대하여 간단한 CNN 구조, CIFAR-10 Dataset에 대해서는 Pretra
 │
 ├── attacks.py                # FGSM/PGD (targeted/untargeted) 공격 함수 정의
 ├── test.py                   # MNIST/CIFAR-10에 대한 공격 실행 스크립트
-├── adv_images/               # 생성된 adversarial 이미지 저장 폴더
-├── .gitignore                # 대용량 파일 제외, test.py 실행시 자동으로 설치됨.
+├── adv_images/               # 생성된 adversarial 이미지 저장 폴더, test.py 실행시 자동으로 설치
+├── .gitignore                # 대용량 파일 제외
 └── README.md
 ```
 <br>
